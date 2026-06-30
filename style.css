@@ -88,6 +88,7 @@ body {
     justify-content: center;
     gap: 64px;
     margin-top: 64px;
+    margin-bottom: 64px;
 }
 
 .info .container .boxes {
@@ -99,4 +100,26 @@ body {
     border-radius: 15px;
     width: 200px;
     height: 200px;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    background-color: #e5e7eb;
+    height: 450px;
+}
+
+.quote .quote-text {
+    margin-top: 144px;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    height: 170px;
+}
+
+.quote .author {
+    font-weight: 900;
+    font-size: 28px;
+    margin-top: 300px;
+    margin-left: -280px;
 }
