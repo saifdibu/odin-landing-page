@@ -164,3 +164,16 @@ body {
     font-size: 28px;
     padding: 10px 25px 10px 25px;
 }
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937;
+    height: 150px;
+}
+
+.footer .copyright {
+    color: #e5e7eb;
+    font-size: 26px;
+}
