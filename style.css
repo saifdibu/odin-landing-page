@@ -123,3 +123,44 @@ body {
     margin-top: 300px;
     margin-left: -280px;
 }
+
+.sign {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+
+.sign .blue {
+    background-color: #3882f6;
+    width: 1200px;
+    height: 200px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+}
+
+.sign .blue .left .call {
+    font-weight: 900;
+    font-size: 32px;
+}
+
+.sign .blue .left .call2 {
+    font-size: 24px;
+}
+
+.sign .blue .left .call, .call2 {
+    color: white;
+}
+
+.sign .blue button {
+    background-color: #3882f6;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    font-size: 28px;
+    padding: 10px 25px 10px 25px;
+}
